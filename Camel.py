@@ -7,14 +7,14 @@ import os
 print('Welcome to Camel\n')
 input('Press ENTER to continue.')
 while True:
-    os.system('cls')
+    
     print('1. Add Data')
     print('2. Ask Query')
     print('3. Exit')
     choice = input('Enter your choice: ')
 
     if choice == '1':
-        os.system('cls')
+        
         print('1. Add PDF')
         print('2. Exit')
         choice = input('Enter your choice: ')
@@ -37,7 +37,7 @@ while True:
         elif choice == '2':
             break
     elif choice == '2':
-        os.system('cls')
+        
         collection_name = input('Enter collection name: ')
         graph = ask_query.build_rag_graph(collection_name)
         while True:
@@ -59,7 +59,7 @@ while True:
                 result = graph.invoke(initial_state)
                 print("💡 Answer:", result["answer"])
     elif choice == '3':
-        os.system('cls')
+        
         print('Thank you for using Camel')
         print('Exiting')
         break

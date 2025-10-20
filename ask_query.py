@@ -11,7 +11,7 @@ def build_rag_graph(collection_name: str):
         answer: str
 
     embedding_model = OllamaEmbeddings(model="granite-embedding:30m")
-    llm_model = ChatOllama(model="llama3")
+    llm_model = ChatOllama(model="llama3-chatqa:8b")
 
     # Node 1: Retrieve relevant documents from Chroma
     def retrieve_node(state: RAGState, config) -> RAGState:
