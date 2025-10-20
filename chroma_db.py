@@ -4,11 +4,11 @@ from langchain_chroma import Chroma
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-embeddings = OllamaEmbeddings(model="granite-embedding:30m")
+embeddings = OllamaEmbeddings(model="nomic-embed-text")
 
 def create_splitter():
     return RecursiveCharacterTextSplitter(
-        chunk_size=500,
+        chunk_size=400,
         chunk_overlap=100,
         add_start_index=True,
     )

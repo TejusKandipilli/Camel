@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cdf96a0-0da0-41bd-80c1-d8990fcbee1d" name="Changes" comment="Add chroma, llama embedding, chat models, rag graph pipeline">
+    <list default="true" id="3cdf96a0-0da0-41bd-80c1-d8990fcbee1d" name="Changes" comment="update models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Camel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Camel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ask_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/ask_query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chroma_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/chroma_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +86,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760902901487</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update models">
+      <option name="closed" value="true" />
+      <created>1760929120544</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760929120544</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add chroma, llama embedding, chat models, rag graph pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add chroma, llama embedding, chat models, rag graph pipeline" />
+    <MESSAGE value="update models" />
+    <option name="LAST_COMMIT_MESSAGE" value="update models" />
   </component>
 </project>
